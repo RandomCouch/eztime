@@ -1,4 +1,1 @@
-/*
-    EZTime early development stage
-
-*/
+   EZTime early development stage
