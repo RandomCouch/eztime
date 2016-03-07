@@ -1,0 +1,75 @@
+/* CSS declarations go here */
+
+/* nav menu */
+.nav.top {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #262C3A;
+}
+.user {
+    float: left;
+    padding: 10px;
+}
+.menu {
+    display: inline-block;
+}
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.menu li a {
+    color: white;
+}
+.menu li a:hover {
+    color: rgb(255, 180, 101);
+    text-decoration: none;
+}
+.main {
+    background-color: rgba(41, 57, 95, 0.85);
+    height: 100vh;
+    width: 100vw;
+}
+.user {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+.controls_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #5F78B1;
+    border-radius: 5px;
+    min-height: 70vh;
+}
+ul.controls {
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+button.mainCtrl {
+    width: 100%;
+    background-color: #33497B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+button.mainCtrl:hover {
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    background-color: #4C68A7;
+}
+.shiftInfo {
+    text-align: center;
+    color: rgba(207, 233, 255, 0.88);
+    background-color: rgba(0, 0, 0, 0.28);
+    margin: 0 auto;
+    padding: 2px;
+}
