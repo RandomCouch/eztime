@@ -15,7 +15,9 @@ SignupForm = React.createClass({
       console.log("Got form ");
       this.setState({form:component});
     },
-    submitForm: function(data){ 
+    submitForm: function(data){
+		console.log(data);
+		console.log("DATA: " + JSON.stringify(data));
         var username = data[0].value;
         var email = data[1].value;
         var password = data[2].value;

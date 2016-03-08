@@ -11,7 +11,7 @@ BasicForm = React.createClass({
         this.props.submitForm(data);
     },
     componentDidMount: function(){
-        //this.props.getForm(this);  
+        this.props.getForm(this);  
     },
     render:function(){
         var classN = "form " + this.props.customStyle;
@@ -30,7 +30,7 @@ BasicForm = React.createClass({
                         <tbody>
                         {this.props.questions.map(function (question, i){
                           return(
-                            <BasicQuestion key={i} label={question.label}  id={question.name} type={question.type} options={question.options || []}/>
+                            <BasicQuestion key={i} label={question.label}  id={question.name || i} type={question.type} options={question.options || []}/>
                           )  
                         })}
                         </tbody>
